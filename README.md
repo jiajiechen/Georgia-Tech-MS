@@ -1,4 +1,4 @@
-# Sample-Code-from-past-assignments-
+# Sample-Code
 
 > This folder is for recruiters and anyone has interest in the projects I've done in my MS program.
 
@@ -9,4 +9,4 @@
 > Also it contains many programming assignments I did.
 
 * Ng Machine Learning: Coursera and CS229
-* Udacity..., etc
+* ...
