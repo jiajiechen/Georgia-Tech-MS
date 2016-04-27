@@ -1,0 +1,649 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8" />
+	    <title> Campaign Design Network </title>
+	    <style>   
+
+	    	body {
+		        font-family: Verdana,Arial,sans-serif;
+      		}
+
+	    	h1 {
+		        font-size: 2em;
+		        margin: 30px 0 7px 0;
+		        color:steelblue;
+      		}
+
+      		h2 {
+		        font-size: 1.2em;
+		        margin: 7px 0 20px 0;
+		        color:	skyblue;
+      		}
+
+      		.infoPanal{
+      			margin:3px 0 20px 0;
+      		}
+
+      		.container {
+		        float: left;
+		        margin:7px 0 10px 0;
+      		}
+
+		    .makeSpace {
+		        margin-left: 250px;
+		        float: left;
+	      	}
+
+	      	.wrapper {
+		        width: 1000px;
+		        margin-left: auto;
+		        margin-right: auto;
+      		}
+
+      		.chartWapper {
+		        width: 1300px;
+		        margin-left: auto;
+		        margin-right: auto;
+		       	margin-bottom: 25px;
+      		}
+
+      		.bubbleWapper{
+
+      			width: 1000px;
+		        margin-left: auto;
+		        margin-right: auto;
+		        margin-bottom: 25px;
+
+      		}
+
+      		.teamLogo{
+      			background:#fff url(images/teamLOGO.png) no-repeat center;
+      		}
+
+
+
+      		.link {
+			    fill: none;
+			    stroke: #666;
+			    stroke-width: 1px;
+			}
+
+		  	.circle.fixed {
+		    	fill: #f00;
+		  	}
+
+		  	.d3-tip {
+		    	line-height: 1;
+			    	font-weight: bold;
+			    padding: 12px;
+			    background: rgba(18, 18, 18, 0.8);
+		    	color: #fff;
+		    	border-radius: 2px;
+		    	pointer-events: none;
+		  	}
+
+		  	circle {
+		    	fill: #ccc;
+		    	stroke: #333;
+		    	stroke-width: 1.5px;
+		  	}
+
+
+		  	#mainBubble {
+		      background: #fff;
+		      box-shadow: 0 0 4px rgba(0,0,0,0);
+		      font: 70px sans-serif;
+		      font-weight: bold;
+		      height: 800px;
+		      position: relative;
+		      width: 60%;
+		    }
+		             
+		    #mainBubble svg {
+		      	left: 0;
+		      	position: absolute;
+		      	top: 0;
+		    }
+		                         
+		    #mainBubble circle.topBubble {
+		      	fill: #aaa;
+		      	stroke: #666;
+		      	stroke-width: 1.2px;
+		    }
+
+
+	    </style>
+	    <link rel="stylesheet" href="lib/app.css">
+    </head>
+    <script src="lib/d3/d3.v3.min.js"></script>
+  	<script src="lib/d3/d3.tip.v0.6.3.js"></script>
+  	<script src="lib/trendDataProcess.js"></script>
+
+
+
+ 	<body >
+
+ 		<div class="wrapper" >
+      		<h1> How will the marketing influence go thorough? </h1>
+      		<div id="mainBubble"></div>
+      		<h2>  you may want to know...</h2>  
+    	</div>
+
+
+ 		<div id = "infoSelectedPanel" class="wrapper">
+	      	<table>
+		        <tr>
+		          	<td></td>
+		          	<td id = "descrip">Interested Topic?</td>
+		          	<td>
+			            <select id = "getTopic">
+			              <option value="0">Travel</option>
+			              <option value="1">Food</option>
+			              <option value="2">Holiday</option>
+			              <option value="3">Design</option>
+			              <option value="4">Social Media</option>
+		        		</select>
+		        	</td>
+		        	<td></td>
+		        	<td id = "descrip">How many rounds of campaigns? </td>
+		          	<td><input type="text" id="getCampNum" value="4"></td> 	
+		        </tr>
+		        <tr>
+		        	<td></td>
+		        	<td id = "descrip"> How many influncers?</td>
+		          	<td>
+			            <select id = "getInfNum">
+			              <option value="1">1 person</option>
+			              <option value="2">2 persons</option>
+			              <option value="3">3 persons</option>
+			              <option value="4">4 persons</option>
+			              <option value="5" selected="selected">5 persons</option>
+		        		</select>
+		        	</td>
+		        	<td></td>
+			        <td id = "descrip">Time Interval between two campaign? (hr) </td>
+			        <td><input type="text" id="getCampTime" value="4">
+			        </td>
+		        </tr>
+		        <tr>
+		        	<td></td><td></td><td></td><td></td><td></td>
+		        	<td><input id="bbtn" type="button" value="Let's See The Results! " onclick="getInfo()"/></td>
+		        	<td><input id="bbtn2" type="button" value="Clear!" onclick="clearInfo()"/></td>
+		        </tr>
+	      	</table>
+	  	</div>
+	  	<div class="chartWapper">
+	  		<table align="center" border="0" width="1200" height="750">
+	  			<tr>
+	  				<td align="center" valign="center" width="900" height="400">
+	  					<p id= "networkGraph"> </p>
+	  				</td>
+	  				
+	  			</tr>
+	  			<tr>
+	  				<td align="center" valign="center"> 
+	  					<p id= "trendGraph"></p>
+	  				</td>
+	  					
+	  			</tr>
+	  		</table>
+	  	</div>
+
+	  	
+	  	<script src="lib/bubble.js"></script>
+
+
+
+	  	<script>
+	  		var infNodes = [
+			    {"Userid": 96697085,"username": "alexisKornblum","activeFollowers": 18,"followers": 23388},
+			    {"Userid": 241844284,"username": "freutcake","activeFollowers": 7,"followers": 9053},
+			    {"Userid": 213405395,"username": "inspiredbycharm","activeFollowers": 43,"followers": 6773},
+			    {"Userid": 39940842,"username": "concoctologist","activeFollowers": 46,"followers": 180214},
+			    {"Userid": 26561883,"username": "theyearinfood","activeFollowers": 7,"followers": 4314},
+			    {"Userid": 260773660,"username": "thefauxmartha","activeFollowers": 19,"followers": 4061},
+			    {"Userid": 20253942,"username": "lauratrevey","activeFollowers": 8,"followers": 3254},
+			    {"Userid": 818155,"username": "caro","activeFollowers": 14,"followers": 34402},
+			    {"Userid": 15655027,"username": "mattduckor","activeFollowers": 14,"followers": 16743},
+			    {"Userid": 172758851,"username": "lizautter","activeFollowers": 9,"followers": 41823},
+			    {"Userid": 15452859,"username": "dawnSandemeno","activeFollowers": 11,"followers": 51478},
+			    {"Userid": 23241541,"username": "camillestyles","activeFollowers": 35,"followers": 20184},
+			    {"Userid": 18809624,"username": "jennifer","activeFollowers": 23,"followers": 16149},
+			    {"Userid": 86369703,"username": "jetsetfarryn","activeFollowers": 9,"followers": 36398},
+			    {"Userid": 21586778,"username": "kellyryanobrien","activeFollowers": 15,"followers": 13331},
+			    {"Userid": 7121092,"username": "carolineoncrack","activeFollowers": 61,"followers": 20056},
+			    {"Userid": 873828446,"username": "hbharvest","activeFollowers": 85,"followers": 8010},
+			    {"Userid": 18478105,"username": "stevedolinsky","activeFollowers": 38,"followers": 52962},
+			    {"Userid": 483195215,"username": "maccocktail","activeFollowers": 174,"followers": 271618},
+			    {"Userid": 22981009,"username": "mollyyeh","activeFollowers": 50,"followers": 8512}
+			  ];
+
+		  	
+		  	var width_1 = 1000, height_1 = 450;
+		  	var width_3 = 1000, height_3 = 250; 
+			var width_5 = window.innerWidth*0.6, height_5 = 630; //bag of words
+		  	//var width_5 =  window.innerWidth*0.68*0.95, height_5 = Math.ceil(width_5*0.7); //bag of words
+		  	var oR = 0;
+		   	var nTop = 0;
+
+		  	var svg1 = d3.select("#networkGraph").append("svg")
+				          	.attr("width", width_1)
+				          	.attr("height", height_1);
+
+			var svg3 = d3.select("#trendGraph").append("svg")
+				          	.attr("width", width_3)
+				          	.attr("height", height_3);
+
+			//bubble
+			var svgContainer = d3.select("#mainBubble")
+		      	.style("height", height_5+"px");
+			var svg5 = d3.select("#mainBubble").append("svg")
+					        .attr("class", "mainBubbleSVG")
+					        .attr("font-size", 15)
+					        .attr("width", width_5)
+					        .attr("height",height_5)
+					        .on("mouseleave", function() {return resetBubbles();});
+
+			var mainNote = svg5.append("text")
+			    .attr("id", "bubbleItemNote")
+			    .attr("x", 0)
+			    .attr("y", width_5/2-15)
+			    .attr("font-size", 12)
+			    .attr("dominant-baseline", "middle")
+			    .attr("alignment-baseline", "middle")
+			    .style("fill", "#888888")
+			    .text(function(d) {return "";});  
+
+			drawTopicBubble(svg5,width_5,height_5);
+
+
+
+		  	var topicNameArr = ["travel", "food", "holiday","design", "socialMedia"]
+
+		  	function clearInfo(){
+		  		svg1.selectAll("*").remove();
+		  		svg3.selectAll("*").remove();
+
+		  	}
+
+			function getInfo(){
+				
+				// ===== Get Information =====
+				// get the table name
+				var topicIdx = document.getElementById('getTopic').value;
+				var selectedTopicTable = "data/"+topicNameArr[topicIdx];
+				// get influncer number
+				var infNum = document.getElementById('getInfNum').value;
+				var campNum = document.getElementById('getCampNum').value;
+				var campTime = document.getElementById('getCampTime').value;
+
+				console.log(" ============= New Selected Draw ============ \n")
+				console.log(selectedTopicTable, ",influncer number:",infNum, ', camp num:', campNum, ', camp time btw:',campTime ); //
+			
+				// ===== Draw Network =====
+				drawNetworkGraph(selectedTopicTable,infNum,campNum,campTime,svg1);
+
+				// ===== Draw Bag of Words =====
+				//rawBagOfWords(selectedTopicTable,svg2);
+
+				// ===== Draw Trend =====
+				drawTrendGraph(selectedTopicTable,infNum,campNum,campTime,svg3, width_3, height_3);
+
+
+			}
+
+
+			
+
+
+			function drawNetworkGraph(selectedTopicTable,infNum,campNum,campTime,svg1){
+				var hour = 2000;
+				var activeUsers = [];
+		  		var links = [];
+				d3.csv(selectedTopicTable+"Infler.csv", function(error, inflersData) {
+						var infDict = {};
+						count = 0 ;
+				      	inflersData.forEach(function(d){
+				      		if (count<5){
+				      			console.log("get Inflers!");
+				      			userID = d.userID;
+				      			infDict[userID] = +d.score;
+				      		}
+				      		count++;
+				      	});
+				      	//console.log(" new Topic", selectedTopicTable);
+				      	//console.log("  infDict: ",infDict); 
+
+					d3.csv(selectedTopicTable+"Edge"+infNum+".csv", function(error, edgeData) {
+				      	if (error) throw error;
+
+				      	// infDict = { userID: score, userID: score, userID: score, ...}
+
+				      	var allInfIDArr = [];
+					    infNodes.forEach(function(d){
+					        allInfIDArr.push(d.Userid);
+					    });
+					    //console.log("  allInfIDArr: ",allInfIDArr);
+				     
+
+
+				      	edgeData.forEach(function(d) {
+				          var edge = {};
+				          //console.log( "   -->link obj",d);
+				          edge['source'] = +d['source'];
+				          edge['target'] = +d['target'];
+				          edge['status'] = d['status'];
+				          edge['count'] = +d['count'];
+						  edge['phase']=+d['phase']
+				          edge['sp1'] = +d['sp1'];
+						  edge['sp2'] = +d['sp2'];
+						  edge['sp3'] = +d['sp3'];
+						  edge['tp1'] = +d['tp1'];
+						  edge['tp2'] = +d['tp2'];
+						  edge['tp3'] = +d['tp3'];
+						  if(!( d.target in edge)){
+						  	edge['favTopic']= d['favTopic_target'];
+						  	// console.log(d['favTopic_target']);
+						  }
+						  if(!( d.source in edge)){
+						  	edge['favTopic']= d['favTopic_source'];
+						  }
+				          links.push(edge);
+				          if(d['status']=="YES"){
+				            if(activeUsers.indexOf(d['source'])<0) activeUsers.push(+d['source']);
+				            if(activeUsers.indexOf(d['target'])<0) activeUsers.push(+d['target']);
+				          }  
+				      	})
+				      	
+				      	var nodes = {};
+
+				      	// Compute the distinct nodes from the links.
+					    links.forEach(function(link) {
+					    	link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, phase1: link.sp1, phase2: link.sp2, phase3:link.sp3, favTopic:link.favTopic});
+					    	link.target = nodes[link.target] || (nodes[link.target] = {name: link.target, phase1: link.tp1, phase2: link.tp2, phase3:link.tp3, favTopic:link.favTopic});
+					     });
+
+				      	//console.log(Object.keys(nodes).length); 
+
+
+					    var force = d3.layout.force()
+					        .nodes(d3.values(nodes))
+					        .links(links)
+					        .size([width_1, height_1])
+					        .linkDistance(function(d) { 
+					         	return 10;
+					        })
+					        .charge(-200)
+					        .on("tick", tick)
+					        .start();
+
+				      	svg1.append("rect")
+				        	.attr("width", "100%")
+				        	.attr("height", "100%")
+				        	.attr("fill", "white");
+
+				      	// Per-type markers, as they don't inherit styles.
+				      	svg1.append("defs").selectAll("marker")
+				        	.data(["YES", "Follower of Secondary_User"])
+				        	.enter().append("marker")
+				          	.attr("id", function(d) { return d; })
+				          	.attr("viewBox", "0 -5 10 10")
+				          	.attr("refX", 15)
+				          	.attr("refY", -1.5)
+				          	.attr("markerWidth", 6)
+				          	.attr("markerHeight", 6)
+				          	.attr("orient", "auto")
+				          	.append("path")
+				          	.attr("d", "M0, -5L10, 0L0, 5");
+
+				      	var path = svg1.append("g").selectAll("path")
+				          	.data(force.links())
+				          	.enter().append("path")
+				          	.attr("class", function(d) { return "link " + d.status; })
+				          	.attr("marker-end", function(d) { return "url(#" + d.name + ")"; })
+				          	.style("stroke-width", function(d) { return Math.log(d.count/10); })
+				          	.style("stroke",function(d){ return "#99eadf";
+				          	});
+
+
+				      	var tip = d3.tip().attr('class', 'd3-tip').html(function(d) { 
+				       		if(d.name in infDict) {
+				       				var idx = allInfIDArr.indexOf(d.name);
+				          		var Str = infNodes[idx].username+ "<br>Followers: "+  infNodes[idx].followers + "<br> Active Followers: "+ infNodes[idx].activeFollowers;
+				          	
+				       		}else{  
+				       			var Str = "</t> UserId: " + d.name + "<br> Favoriate Topics: "+ d.favTopic;
+				       		}
+				          	return Str;
+				       	});
+				      	svg1.call(tip);
+
+				      
+				      	var count = 1;
+
+				      	var circle = svg1.append("g").selectAll("circle")
+				        	.data(force.nodes())
+				            .enter().append("circle")
+				            .attr("r", function(d) {
+				            	if(d.name in infDict) {
+				            		var idx = allInfIDArr.indexOf(d.name);
+				            		var rr = Math.log(infDict[d.name]*300000)+8;
+				            		console.log(rr);
+				            		return (rr);
+            						//return (Math.log(infNodes[idx].followers)+5);
+				          		} if (activeUsers.indexOf(d.name) >0){return 7;
+				          		} else{return 5;}
+				          		})
+				          	.style("fill", function(d) {
+				            	if(d.name in infDict) {//console.log(count); 
+				            		count++;
+				              		return "#31dfac";
+				            	}if(activeUsers.indexOf(d.name) >0){
+				            		return "#82ebb7";
+				            	} 
+				            	return "#05a3a1";
+				            }) 
+				          	.on("dblclick" , dbclickFn)
+				          	.on('mouseover', tip.show)
+				          	.on('mouseout', tip.hide)
+				          	.call(force.drag);
+
+				      	// Use elliptical arc path segments to doubly-encode directionality.
+				      	function tick() {
+				        	path.attr("d", linkArc);
+				        	// circle.attr("transform", transform);
+
+				        	circle.attr("cx", function(d) { return d.x = Math.max(22, Math.min(width_1 - 22, d.x)); })
+       						 	.attr("cy", function(d) { return d.y = Math.max(22, Math.min(height_1 - 22, d.y)); });
+
+
+				        	//text.attr("transform", transform);
+				      	}
+
+				      	function linkArc(d) {
+				        	var dx = d.target.x - d.source.x,
+				            dy = d.target.y - d.source.y,
+				            dr = Math.sqrt(dx * dx + dy * dy);
+				        	return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+				      	}
+
+				      	function transform(d) {return "translate(" + d.x + "," + d.y + ")";}
+
+				      	function dbclickFn(d){
+				        	if (d.fixed == false) { // unpinned state
+					          	d.fixed = true;//now pin
+					          	console.log("pinned")
+					          	d3.select(this).style("fill","royalblue");
+				        	}else { //else pinned state
+				          		d.fixed = false; // now unpin
+				          		console.log("not pinned")
+				          		d3.select(this).style("fill",function(d) {
+				           			if(d.name in infDict) {return "#05a3a1";}
+				            		if(activeUsers.indexOf(d.name) >0){return "#2ac6cb";} 
+				            		return "#82ebb7";});
+				        	}
+				      	}
+						var campDelay = campTime*hour;
+						console.log(nodes)
+						for (var i=0;i<campNum;i++){
+
+						// Phase 1
+						svg1.selectAll("circle").filter(function(d) { return d.phase1 ==1 })
+						    .transition().delay(i*campDelay).duration(hour*0.2+Math.random()*50)
+							.attr("r", 20)
+							.style("fill", "#db2059") //
+							.transition().delay(i*campDelay+hour*0.1+Math.random()*50).duration(hour*2.8+Math.random()*50)
+							.attr("r", function(d) {
+				            	if(d.name in infDict) {
+				            		var idx = allInfIDArr.indexOf(d.name);
+				            		var rr = Math.log(infDict[d.name]*300000);
+				            		return rr+8;
+	        						//return (Math.log(infNodes[idx].followers)+5);
+				          		} if (activeUsers.indexOf(d.name) >0){return 7;
+				          		} else{return 5;}
+			          		}) 
+			          	    .style("fill", function(d) {
+				            	if(d.name in infDict) {//console.log(count); 
+				            		count++;
+				              		return "#feff8c";
+				            	}if(activeUsers.indexOf(d.name) >0){
+				            		return "#82ebb7";
+				            	} 
+				            	return "#05a3a1";
+				            });
+						
+						
+						svg1.selectAll("path").filter(function(d){return d.phase==1})
+							.transition().delay(i*campDelay+hour*0.2+Math.random()*50).duration(hour+Math.random()*50)	
+							.style("stroke","#ff6f34")
+							.style("stroke-width","17")
+							.transition().delay(i*campDelay+hour*0.4+Math.random()*50).duration(hour)	
+							.style("stroke-width", function(d) { return Math.log(d.count/10); });
+
+						svg1.selectAll("circle").filter(function(d) { return d.phase2 ==1 })
+						    .transition().delay(i*campDelay+hour*1.2+Math.random()*50).duration(hour*0.2+Math.random()*50)
+							.attr("r", 9)
+							.style("fill", "#ff99cc") //orange
+							.transition().delay(i*campDelay+hour*1.4+Math.random()*50).duration(hour*2.8+Math.random()*50)
+							.attr("r", function(d) {
+				            	if(d.name in infDict) {
+				            		var idx = allInfIDArr.indexOf(d.name);
+				            		return (Math.log(infDict[d.name]*300000)+10);
+	        						//return (Math.log(infNodes[idx].followers)+5);
+				          		} if (activeUsers.indexOf(d.name) >0){return 7;
+				          		} else{return 5;}
+			          		}) 
+			          	    .style("fill", function(d) {
+				            	if(d.name in infDict) {//console.log(count); 
+				            		count++;
+				              		return "#05a3a1";
+				              		//return "#82ebb7";
+				            	}if(activeUsers.indexOf(d.name) >0){
+				            		return "#2ac6cb";
+				            		//return "#2ac6cb";
+				            	} 
+				            	return "#82ebb7"; 
+				            	//return "#05a3a1";
+			            	});
+						
+						// Phase 2
+						svg1.selectAll("path").filter(function(d){return d.phase==2;})
+							.transition().delay(i*campDelay+hour*1.2+Math.random()*50).duration(hour+Math.random()*50)	
+							.style("stroke","#fff3cb")
+							.style("stroke-width","4")
+							.transition().delay(i*campDelay+hour*1.4+Math.random()*50).duration(hour)	
+							.style("stroke",function(d){return "#ff5588";});
+						
+						// Phase 3 	
+						svg1.selectAll("circle").filter(function(d) { return d.phase3 ==1; })
+						    .transition().delay(i*campDelay+hour*2.2+Math.random()*50).duration(hour*0.2+Math.random()*50)
+							.attr("r", 7)
+							.style("fill", "#ffbb30")
+							.transition().delay(i*campDelay+hour*2.4+Math.random()*50).duration(hour*2.8+Math.random()*50)
+							.attr("r", function(d) {
+				            	if(d.name in infDict) {
+				            		var idx = allInfIDArr.indexOf(d.name);
+				            		return (Math.log(infDict[d.name]*300000)+10);
+	        						//return (Math.log(infNodes[idx].followers)+5);
+				          		} 
+				          		if (activeUsers.indexOf(d.name) >0){return 7;
+				          		} else{return 5;}
+			          		})
+			          	    .style("fill", function(d) {
+				            	if(d.name in infDict) {//console.log(count); 
+				            		count++;
+				              		return "#31dfac";
+				            	}if(activeUsers.indexOf(d.name) >0){
+				            		return "#82ebb7";
+				            	} 
+				            	return "#05a3a1";
+				            });
+						}
+	                      
+	    			});
+				});
+			}
+
+
+			function drawTrendGraph( selectedTopicTable,infNum,campNum,campTime,svg3, width_3, height_3){
+				//小辰code
+				d3.csv(selectedTopicTable+"Node"+infNum+".csv", function(error, inflersNodeData) {
+					var nodes = [];
+					inflersNodeData.forEach(function(d) {
+						nodes.push({
+							userID : d['userID'],
+							phase1 : +d['PhaseI'],
+							phase2 : +d['PhaseII'],
+							phase3 : +d['PhaseIII'],
+
+						});
+				    });
+					console.log(nodes);
+			 	
+
+			        var hour = 60;
+					var phaseTime = hour;
+					var phaseNum = 3;
+					var campInterval = hour*campTime;
+					var memoryLength = 3*hour;
+					var simLength = campInterval*(campNum-1)+phaseTime*(phaseNum-1)+memoryLength;
+					var userNum = 0;
+					while (nodes[userNum]){
+						userNum++;
+					}
+					var userNumLog = userExposureMonitor(phaseTime, phaseNum, campInterval, campNum, nodes, memoryLength, simLength, userNum);
+					console.log(userNumLog);
+					var nodeJSON = createUserExposureJSON(userNumLog,simLength);
+					var parseDate  = d3.time.format('%Y-%m-%dT%H:%M:%S').parse;
+					var trendData = nodeJSON.map(function (d) {
+					    return {
+					    	date:  parseDate(d.date),
+					    	exposedUserNum: d.exposedUserNum,
+					    	base: 0
+					    };
+					});
+					var markerData = createMarkersJSON(campInterval,campNum);
+					var markers = markerData.map(function (marker) {
+					  return {
+					    date: parseDate(marker.date),
+					    campID: marker.campID,
+					  };
+					});
+					makeChart(svg3, trendData, markers, width_3, height_3,campTime,simLength);
+
+
+
+
+
+					
+
+				});
+			}
+
+	  	</script>
+
+
+  	</body> 
+</html>

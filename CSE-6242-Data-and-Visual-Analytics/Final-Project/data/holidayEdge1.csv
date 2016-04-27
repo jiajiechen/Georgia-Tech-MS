@@ -1,0 +1,541 @@
+target,source,status,count,phase,source_score,target_score,tp1,tp2,tp3,favTopic_target,sp1,sp2,sp3,favTopic_source
+7121092,483195215,YES,4,2,1.0,0.0783356853395,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+14066068,483195215,YES,1,2,1.0,0.069582537695,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+14421382,483195215,YES,8,2,1.0,0.285362059278,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+15379585,483195215,YES,1,2,1.0,0.417199970665,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+15627012,483195215,YES,1,2,1.0,0.0544015093741,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+15682352,483195215,YES,2,2,1.0,0.0790027373223,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+17976763,483195215,YES,3,2,1.0,0.428235927205,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+18128757,483195215,YES,7,2,1.0,0.21755429215,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+18337124,483195215,YES,4,2,1.0,0.0680024172399,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+18643923,483195215,YES,1,2,1.0,0.0776857418451,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+19270497,483195215,YES,2,2,1.0,0.127377237217,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+19333624,483195215,YES,2,2,1.0,0.145485167418,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+21632957,483195215,YES,2,2,1.0,0.0370806916006,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+22153143,483195215,YES,2,2,1.0,0.12378752173,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+22209787,483195215,YES,2,2,1.0,0.0442340084401,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+22425289,483195215,YES,11,2,1.0,0.498796673226,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+22982905,483195215,YES,4,2,1.0,0.491217838579,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+23387006,483195215,YES,6,2,1.0,0.358475045515,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+24498638,483195215,YES,2,2,1.0,0.135481853981,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+24990869,483195215,YES,28,2,1.0,0.15674215671,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+25236969,483195215,YES,1,2,1.0,0.0501452483429,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+26265644,483195215,YES,7,2,1.0,0.129923699884,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+26561883,483195215,YES,1,2,1.0,0.0628178367974,0,0,0,food,1,0,0,holiday+xmas+newyear
+27936865,483195215,YES,20,2,1.0,0.0793242511924,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+28470495,483195215,YES,1,2,1.0,0.269716930455,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+28820902,483195215,YES,2,2,1.0,0.107943849362,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+29444665,483195215,YES,2,2,1.0,0.2398893132,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+30213351,483195215,YES,12,2,1.0,0.545610312845,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+32578736,483195215,YES,4,2,1.0,0.116112091051,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+35065617,483195215,YES,2,2,1.0,0.0866748486278,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+35075210,483195215,YES,8,2,1.0,0.244943144297,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+36079205,483195215,YES,8,2,1.0,0.0991488199359,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+39940842,483195215,YES,22,2,1.0,0.029871190142,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+40492021,483195215,YES,1,2,1.0,0.443479551557,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+48880692,483195215,YES,5,2,1.0,0.136774663797,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+52960330,483195215,YES,2,2,1.0,0.000450825492114,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+58698876,483195215,YES,11,2,1.0,0.246523442625,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+60725694,483195215,YES,18,2,1.0,0.19572444524,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+64805314,483195215,YES,4,2,1.0,0.343792548649,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+67742854,483195215,YES,4,2,1.0,0.0216677969478,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+68520982,483195215,YES,2,2,1.0,0.0122137083309,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+73181817,483195215,YES,10,2,1.0,0.283649363916,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+75126350,483195215,YES,2,2,1.0,0.185821410287,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+80365316,483195215,YES,2,2,1.0,0.0302129246327,0,0,0,food,1,0,0,holiday+xmas+newyear
+80733182,483195215,YES,34,2,1.0,0.408807159935,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+89321553,483195215,YES,9,2,1.0,0.174901765552,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+114981795,483195215,YES,2,2,1.0,0.0,0,0,0,food,1,0,0,holiday+xmas+newyear
+139855451,483195215,YES,4,2,1.0,0.190644609886,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+143681438,483195215,YES,6,2,1.0,0.289136746796,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+144101650,483195215,YES,8,2,1.0,0.525101905299,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+147026000,483195215,YES,2,2,1.0,0.00594182953084,0,0,0,food+cook,1,0,0,holiday+xmas+newyear
+159460842,483195215,YES,1,2,1.0,0.0912343971,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+167852680,483195215,YES,2,2,1.0,0.146460822849,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+177454156,483195215,YES,3,2,1.0,0.196551070576,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+205427145,483195215,YES,1,2,1.0,0.349369202948,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+205552817,483195215,YES,2,2,1.0,0.190527843506,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+207820751,483195215,YES,1,2,1.0,0.0818993424762,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+212067712,483195215,YES,1,2,1.0,0.46901178588,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+214105439,483195215,YES,2,2,1.0,0.10088929175,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+218280206,483195215,YES,3,2,1.0,0.324978064704,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+226318669,483195215,YES,4,2,1.0,0.0486671623929,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+226360469,483195215,YES,4,2,1.0,0.535993826169,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+247953615,483195215,YES,1,2,1.0,0.104570936723,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+259874626,483195215,YES,4,2,1.0,0.119068814097,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+266167439,483195215,YES,1,2,1.0,0.060247119716,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+282648359,483195215,YES,1,2,1.0,0.33084723624,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+297972287,483195215,YES,10,2,1.0,0.155157968185,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+303938096,483195215,YES,2,2,1.0,0.131404268683,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+306775372,483195215,YES,2,2,1.0,0.580496001835,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+310055040,483195215,YES,11,2,1.0,0.424203319568,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+315098670,483195215,YES,2,2,1.0,0.0839545514109,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+317763679,483195215,YES,2,2,1.0,0.214118878568,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+323570341,483195215,YES,1,2,1.0,0.130051912563,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+341664138,483195215,YES,7,2,1.0,0.24949618087,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+343500261,483195215,YES,2,2,1.0,0.0750381165444,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+346423170,483195215,YES,1,2,1.0,0.156453390434,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+356360314,483195215,YES,1,2,1.0,0.258701353251,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+369702252,483195215,YES,4,2,1.0,0.32346899085,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+373564351,483195215,YES,2,2,1.0,0.211125214521,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+386939806,483195215,YES,2,2,1.0,0.0727361683129,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+391403694,483195215,YES,4,2,1.0,0.378237535031,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+433700958,483195215,YES,5,2,1.0,0.0973598274861,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+445898774,483195215,YES,2,2,1.0,0.0692474598203,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+461206472,483195215,YES,4,2,1.0,0.123778925267,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+462251110,483195215,YES,1,2,1.0,0.484649357003,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+464791138,483195215,YES,2,2,1.0,0.0306878591687,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+470744719,483195215,YES,6,2,1.0,0.158667165807,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+521887162,483195215,YES,6,2,1.0,0.208229160712,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+525687450,483195215,YES,4,2,1.0,0.196536576414,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+540244828,483195215,YES,1,2,1.0,0.0710593976949,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+556136842,483195215,YES,6,2,1.0,0.264396040496,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+566331806,483195215,YES,8,2,1.0,0.294617545984,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+577256073,483195215,YES,2,2,1.0,0.0,0,0,0,food,1,0,0,holiday+xmas+newyear
+726144116,483195215,YES,2,2,1.0,0.077932026928,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+777367729,483195215,YES,7,2,1.0,0.221564411584,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+785761056,483195215,YES,1,2,1.0,0.210456882636,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+800982282,483195215,YES,29,2,1.0,0.40826639096,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+818798281,483195215,YES,16,2,1.0,0.497460644025,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+820947578,483195215,YES,2,2,1.0,0.240692101009,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+822585859,483195215,YES,12,2,1.0,0.346493498656,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+913573256,483195215,YES,1,2,1.0,0.422982289407,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+919022581,483195215,YES,1,2,1.0,0.0163343393475,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+919046790,483195215,YES,13,2,1.0,0.380092069287,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+947031751,483195215,YES,2,2,1.0,0.022509894481,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+950602266,483195215,YES,5,2,1.0,0.230391838547,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+974617897,483195215,YES,2,2,1.0,0.143725688841,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1022284034,483195215,YES,2,2,1.0,0.169819190199,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1047877692,483195215,YES,2,2,1.0,0.318125150656,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1119937044,483195215,YES,82,2,1.0,0.0181868916979,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+1177129632,483195215,YES,2,2,1.0,0.203013781367,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1262999012,483195215,YES,1,2,1.0,0.56723625395,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1270981478,483195215,YES,10,2,1.0,0.0377771587371,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1306178348,483195215,YES,4,2,1.0,0.089414298622,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1347313687,483195215,YES,9,2,1.0,0.18914198255,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1382002190,483195215,YES,2,2,1.0,0.116957089905,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1393345688,483195215,YES,4,2,1.0,0.0,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+1413903415,483195215,YES,2,2,1.0,0.0212678357642,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+1418583264,483195215,YES,3,2,1.0,0.122182553305,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1441816825,483195215,YES,4,2,1.0,0.0814173432634,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1645740925,483195215,YES,7,2,1.0,0.566244503324,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1683770802,483195215,YES,41,2,1.0,0.376272665365,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1902678374,483195215,YES,174,2,1.0,0.722401412976,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1929333625,483195215,YES,2,2,1.0,0.168620190492,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2209435278,483195215,YES,6,2,1.0,0.106352811917,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2242955936,483195215,YES,14,2,1.0,0.233090925448,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2245796969,483195215,YES,5,2,1.0,0.114402954692,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2284253455,483195215,YES,1,2,1.0,0.157831554818,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2290152145,483195215,YES,3,2,1.0,0.420748604353,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2345939209,483195215,YES,4,2,1.0,0.339305332552,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2377950579,483195215,YES,20,2,1.0,0.178287862198,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2418556357,483195215,YES,3,2,1.0,0.287848003672,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2429810652,483195215,YES,1,2,1.0,0.203175272726,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2472079988,483195215,YES,11,2,1.0,0.570298889829,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2497209325,483195215,YES,12,2,1.0,0.261487315484,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2525584845,483195215,YES,6,2,1.0,0.0364385680871,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+2542049961,483195215,YES,2,2,1.0,0.139253604089,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2561039153,483195215,YES,1,2,1.0,0.214184822312,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2562379892,483195215,YES,1,2,1.0,0.217740314203,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2606085157,483195215,YES,2,2,1.0,0.0542999210627,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2608170668,483195215,YES,5,2,1.0,0.203878480812,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2647564096,483195215,YES,6,2,1.0,0.200413324591,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2656929762,483195215,YES,1,2,1.0,0.152263763347,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2694912678,483195215,YES,2,2,1.0,0.0765173584701,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+2813182022,483195215,YES,6,2,1.0,0.260564706872,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2815553473,483195215,YES,2,2,1.0,0.00622595559009,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2821444360,483195215,YES,1,2,1.0,0.0245949268305,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2850807431,483195215,YES,2,2,1.0,0.114414650336,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2870039639,483195215,YES,1,2,1.0,0.242733491169,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2871733616,483195215,YES,1,2,1.0,0.534175962579,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2887002526,483195215,YES,2,2,1.0,0.153173981155,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2914673670,483195215,YES,1,2,1.0,0.527246993761,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2979485927,483195215,YES,4,2,1.0,0.256252562698,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3008274374,483195215,YES,4,2,1.0,0.0595545807744,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+3010573975,483195215,YES,12,2,1.0,0.13530440116,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3016254954,483195215,YES,10,2,1.0,0.0,0,0,0,food,1,0,0,holiday+xmas+newyear
+3099848394,483195215,YES,2,2,1.0,0.0761585552647,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3106340063,483195215,YES,18,2,1.0,0.0893236773596,0,0,0,food+cook,1,0,0,holiday+xmas+newyear
+3180881382,483195215,YES,2,2,1.0,0.216861820782,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3184646412,483195215,YES,13,2,1.0,0.174622127195,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3220719853,483195215,YES,2,2,1.0,0.182797890359,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3247102707,483195215,YES,2,2,1.0,0.159989723287,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3247150542,483195215,YES,1,2,1.0,0.0957669087171,0,0,0,travel,1,0,0,holiday+xmas+newyear
+3259563218,483195215,YES,2,2,1.0,0.171591716557,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3270537818,483195215,YES,2,2,1.0,0.0457435572417,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3289906240,483195215,YES,36,2,1.0,0.165766320689,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3299084450,483195215,YES,12,2,1.0,0.236628077189,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3299404571,483195215,YES,21,2,1.0,0.543866898517,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3309802136,483195215,YES,1,2,1.0,0.274920428752,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3389363085,483195215,YES,1,2,1.0,0.0375937404935,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3578284940,483195215,YES,14,2,1.0,0.110250814949,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3640105639,483195215,YES,2,2,1.0,0.373712978713,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3886400655,483195215,YES,4,2,1.0,0.0,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+4289588657,483195215,YES,4,2,1.0,0.0634898664436,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+4348155920,483195215,YES,1,2,1.0,0.344315071381,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+15682352,15655027,YES,2,2,0.639911525483,0.0790027373223,0,0,0,holiday+home,0,0,0,holiday+home
+16145224,15655027,YES,3,2,0.639911525483,0.00373274436694,0,0,0,food+cook,0,0,0,holiday+home
+18809624,15655027,YES,2,2,0.639911525483,0.131930993017,0,0,0,holiday+home,0,0,0,holiday+home
+23071342,15655027,YES,2,2,0.639911525483,0.0674470966859,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+50037505,15655027,YES,2,2,0.639911525483,0.0472430126657,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+83057554,15655027,YES,1,2,0.639911525483,0.398217548829,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+310080433,15655027,YES,4,2,0.639911525483,0.0326086301118,0,0,0,holiday+home,0,0,0,holiday+home
+351218463,15655027,YES,1,2,0.639911525483,0.140708159592,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+2388901877,15655027,YES,15,2,0.639911525483,0.103631944972,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+2845016384,15655027,YES,2,2,0.639911525483,0.0,0,0,0,SocialNetwork,0,0,0,holiday+home
+2875700721,15655027,YES,2,2,0.639911525483,0.178803982048,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3145249974,15655027,YES,10,2,0.639911525483,0.00439126974577,0,0,0,food+cook,0,0,0,holiday+home
+3256043222,15655027,YES,2,2,0.639911525483,0.0392088741392,0,0,0,holiday+home,0,0,0,holiday+home
+4281221712,15655027,YES,2,2,0.639911525483,0.0547695335333,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+14921141,20253942,YES,5,2,0.47759396047,0.0307026304024,0,0,0,food+cook,0,0,0,holiday+home
+15568852,20253942,YES,2,2,0.47759396047,0.102050118293,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+24703881,20253942,YES,6,2,0.47759396047,0.0185432476666,0,0,0,holiday+home,0,0,0,holiday+home
+28739330,20253942,YES,2,2,0.47759396047,0.0657706546735,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+61823778,20253942,YES,1,2,0.47759396047,0.0473102039774,0,0,0,holiday+home,0,0,0,holiday+home
+745791692,20253942,YES,1,2,0.47759396047,0.0837002533856,0,0,0,holiday+home,0,0,0,holiday+home
+2152143480,20253942,YES,2,2,0.47759396047,0.0748778671081,0,0,0,holiday+home,0,0,0,holiday+home
+3401318093,20253942,YES,2,2,0.47759396047,0.0,0,0,0,food,0,0,0,holiday+home
+14292954,15452859,YES,4,2,0.455510527526,0.0248338381621,0,0,0,holiday+gift,0,0,0,holiday+xmas+newyear
+15642916,15452859,YES,2,2,0.455510527526,0.023509019129,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+68296245,15452859,YES,11,2,0.455510527526,0.0643467375448,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+204162470,15452859,YES,1,2,0.455510527526,0.159473180772,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+213405395,15452859,YES,1,2,0.455510527526,0.324916464828,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+319809082,15452859,YES,2,2,0.455510527526,0.172814028626,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+361177282,15452859,YES,1,2,0.455510527526,0.14166369051,0,0,0,holiday+gift,0,0,0,holiday+xmas+newyear
+613382039,15452859,YES,4,2,0.455510527526,0.174256968013,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+704355078,15452859,YES,2,2,0.455510527526,0.00647366986029,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+1374601428,15452859,YES,1,2,0.455510527526,0.217945788144,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+4027167933,15452859,YES,1,2,0.455510527526,0.102476916571,0,0,0,holiday+gift,0,0,0,holiday+xmas+newyear
+6352222,86369703,YES,1,2,0.331135635282,0.0775274603496,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+16529427,86369703,YES,1,2,0.331135635282,0.16044240113,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+18809624,86369703,YES,34,2,0.331135635282,0.131930993017,0,0,0,holiday+home,0,0,0,holiday+home
+19455010,86369703,YES,2,2,0.331135635282,0.0580987259596,0,0,0,holiday+home,0,0,0,holiday+home
+19576316,86369703,YES,1,2,0.331135635282,0.0889433528602,0,0,0,holiday+home,0,0,0,holiday+home
+20486606,86369703,YES,2,2,0.331135635282,0.225801728175,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+32571309,86369703,YES,1,2,0.331135635282,0.0849011977883,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+157448293,86369703,YES,1,2,0.331135635282,0.128064102912,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+172105978,86369703,YES,1,2,0.331135635282,0.0913903778535,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+7121092,483195215,YES,4,3,1.0,0.0783356853395,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+14066068,483195215,YES,1,3,1.0,0.069582537695,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+14421382,483195215,YES,8,3,1.0,0.285362059278,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+15379585,483195215,YES,1,3,1.0,0.417199970665,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+15627012,483195215,YES,1,3,1.0,0.0544015093741,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+15682352,483195215,YES,2,3,1.0,0.0790027373223,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+17976763,483195215,YES,3,3,1.0,0.428235927205,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+18128757,483195215,YES,7,3,1.0,0.21755429215,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+18337124,483195215,YES,4,3,1.0,0.0680024172399,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+18643923,483195215,YES,1,3,1.0,0.0776857418451,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+19270497,483195215,YES,2,3,1.0,0.127377237217,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+19333624,483195215,YES,2,3,1.0,0.145485167418,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+21632957,483195215,YES,2,3,1.0,0.0370806916006,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+22153143,483195215,YES,2,3,1.0,0.12378752173,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+22209787,483195215,YES,2,3,1.0,0.0442340084401,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+22425289,483195215,YES,11,3,1.0,0.498796673226,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+22982905,483195215,YES,4,3,1.0,0.491217838579,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+23387006,483195215,YES,6,3,1.0,0.358475045515,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+24498638,483195215,YES,2,3,1.0,0.135481853981,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+24990869,483195215,YES,28,3,1.0,0.15674215671,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+25236969,483195215,YES,1,3,1.0,0.0501452483429,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+26265644,483195215,YES,7,3,1.0,0.129923699884,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+26561883,483195215,YES,1,3,1.0,0.0628178367974,0,0,0,food,1,0,0,holiday+xmas+newyear
+27936865,483195215,YES,20,3,1.0,0.0793242511924,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+28470495,483195215,YES,1,3,1.0,0.269716930455,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+28820902,483195215,YES,2,3,1.0,0.107943849362,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+29444665,483195215,YES,2,3,1.0,0.2398893132,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+30213351,483195215,YES,12,3,1.0,0.545610312845,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+32578736,483195215,YES,4,3,1.0,0.116112091051,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+35065617,483195215,YES,2,3,1.0,0.0866748486278,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+35075210,483195215,YES,8,3,1.0,0.244943144297,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+36079205,483195215,YES,8,3,1.0,0.0991488199359,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+39940842,483195215,YES,22,3,1.0,0.029871190142,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+40492021,483195215,YES,1,3,1.0,0.443479551557,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+48880692,483195215,YES,5,3,1.0,0.136774663797,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+52960330,483195215,YES,2,3,1.0,0.000450825492114,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+58698876,483195215,YES,11,3,1.0,0.246523442625,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+60725694,483195215,YES,18,3,1.0,0.19572444524,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+64805314,483195215,YES,4,3,1.0,0.343792548649,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+67742854,483195215,YES,4,3,1.0,0.0216677969478,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+68520982,483195215,YES,2,3,1.0,0.0122137083309,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+73181817,483195215,YES,10,3,1.0,0.283649363916,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+75126350,483195215,YES,2,3,1.0,0.185821410287,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+80365316,483195215,YES,2,3,1.0,0.0302129246327,0,0,0,food,1,0,0,holiday+xmas+newyear
+80733182,483195215,YES,34,3,1.0,0.408807159935,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+89321553,483195215,YES,9,3,1.0,0.174901765552,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+114981795,483195215,YES,2,3,1.0,0.0,0,0,0,food,1,0,0,holiday+xmas+newyear
+139855451,483195215,YES,4,3,1.0,0.190644609886,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+143681438,483195215,YES,6,3,1.0,0.289136746796,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+144101650,483195215,YES,8,3,1.0,0.525101905299,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+147026000,483195215,YES,2,3,1.0,0.00594182953084,0,0,0,food+cook,1,0,0,holiday+xmas+newyear
+159460842,483195215,YES,1,3,1.0,0.0912343971,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+167852680,483195215,YES,2,3,1.0,0.146460822849,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+177454156,483195215,YES,3,3,1.0,0.196551070576,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+205427145,483195215,YES,1,3,1.0,0.349369202948,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+205552817,483195215,YES,2,3,1.0,0.190527843506,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+207820751,483195215,YES,1,3,1.0,0.0818993424762,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+212067712,483195215,YES,1,3,1.0,0.46901178588,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+214105439,483195215,YES,2,3,1.0,0.10088929175,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+218280206,483195215,YES,3,3,1.0,0.324978064704,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+226318669,483195215,YES,4,3,1.0,0.0486671623929,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+226360469,483195215,YES,4,3,1.0,0.535993826169,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+247953615,483195215,YES,1,3,1.0,0.104570936723,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+259874626,483195215,YES,4,3,1.0,0.119068814097,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+266167439,483195215,YES,1,3,1.0,0.060247119716,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+282648359,483195215,YES,1,3,1.0,0.33084723624,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+297972287,483195215,YES,10,3,1.0,0.155157968185,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+303938096,483195215,YES,2,3,1.0,0.131404268683,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+306775372,483195215,YES,2,3,1.0,0.580496001835,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+310055040,483195215,YES,11,3,1.0,0.424203319568,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+315098670,483195215,YES,2,3,1.0,0.0839545514109,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+317763679,483195215,YES,2,3,1.0,0.214118878568,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+323570341,483195215,YES,1,3,1.0,0.130051912563,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+341664138,483195215,YES,7,3,1.0,0.24949618087,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+343500261,483195215,YES,2,3,1.0,0.0750381165444,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+346423170,483195215,YES,1,3,1.0,0.156453390434,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+356360314,483195215,YES,1,3,1.0,0.258701353251,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+369702252,483195215,YES,4,3,1.0,0.32346899085,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+373564351,483195215,YES,2,3,1.0,0.211125214521,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+386939806,483195215,YES,2,3,1.0,0.0727361683129,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+391403694,483195215,YES,4,3,1.0,0.378237535031,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+433700958,483195215,YES,5,3,1.0,0.0973598274861,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+445898774,483195215,YES,2,3,1.0,0.0692474598203,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+461206472,483195215,YES,4,3,1.0,0.123778925267,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+462251110,483195215,YES,1,3,1.0,0.484649357003,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+464791138,483195215,YES,2,3,1.0,0.0306878591687,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+470744719,483195215,YES,6,3,1.0,0.158667165807,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+521887162,483195215,YES,6,3,1.0,0.208229160712,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+525687450,483195215,YES,4,3,1.0,0.196536576414,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+540244828,483195215,YES,1,3,1.0,0.0710593976949,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+556136842,483195215,YES,6,3,1.0,0.264396040496,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+566331806,483195215,YES,8,3,1.0,0.294617545984,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+577256073,483195215,YES,2,3,1.0,0.0,0,0,0,food,1,0,0,holiday+xmas+newyear
+726144116,483195215,YES,2,3,1.0,0.077932026928,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+777367729,483195215,YES,7,3,1.0,0.221564411584,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+785761056,483195215,YES,1,3,1.0,0.210456882636,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+800982282,483195215,YES,29,3,1.0,0.40826639096,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+818798281,483195215,YES,16,3,1.0,0.497460644025,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+820947578,483195215,YES,2,3,1.0,0.240692101009,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+822585859,483195215,YES,12,3,1.0,0.346493498656,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+913573256,483195215,YES,1,3,1.0,0.422982289407,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+919022581,483195215,YES,1,3,1.0,0.0163343393475,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+919046790,483195215,YES,13,3,1.0,0.380092069287,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+947031751,483195215,YES,2,3,1.0,0.022509894481,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+950602266,483195215,YES,5,3,1.0,0.230391838547,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+974617897,483195215,YES,2,3,1.0,0.143725688841,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1022284034,483195215,YES,2,3,1.0,0.169819190199,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1047877692,483195215,YES,2,3,1.0,0.318125150656,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1119937044,483195215,YES,82,3,1.0,0.0181868916979,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+1177129632,483195215,YES,2,3,1.0,0.203013781367,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1262999012,483195215,YES,1,3,1.0,0.56723625395,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1270981478,483195215,YES,10,3,1.0,0.0377771587371,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1306178348,483195215,YES,4,3,1.0,0.089414298622,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1347313687,483195215,YES,9,3,1.0,0.18914198255,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1382002190,483195215,YES,2,3,1.0,0.116957089905,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1393345688,483195215,YES,4,3,1.0,0.0,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+1413903415,483195215,YES,2,3,1.0,0.0212678357642,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+1418583264,483195215,YES,3,3,1.0,0.122182553305,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1441816825,483195215,YES,4,3,1.0,0.0814173432634,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1645740925,483195215,YES,7,3,1.0,0.566244503324,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1683770802,483195215,YES,41,3,1.0,0.376272665365,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1902678374,483195215,YES,174,3,1.0,0.722401412976,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+1929333625,483195215,YES,2,3,1.0,0.168620190492,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2209435278,483195215,YES,6,3,1.0,0.106352811917,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2242955936,483195215,YES,14,3,1.0,0.233090925448,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2245796969,483195215,YES,5,3,1.0,0.114402954692,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2284253455,483195215,YES,1,3,1.0,0.157831554818,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2290152145,483195215,YES,3,3,1.0,0.420748604353,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2345939209,483195215,YES,4,3,1.0,0.339305332552,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2377950579,483195215,YES,20,3,1.0,0.178287862198,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2418556357,483195215,YES,3,3,1.0,0.287848003672,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2429810652,483195215,YES,1,3,1.0,0.203175272726,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2472079988,483195215,YES,11,3,1.0,0.570298889829,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2497209325,483195215,YES,12,3,1.0,0.261487315484,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2525584845,483195215,YES,6,3,1.0,0.0364385680871,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+2542049961,483195215,YES,2,3,1.0,0.139253604089,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2561039153,483195215,YES,1,3,1.0,0.214184822312,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2562379892,483195215,YES,1,3,1.0,0.217740314203,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2606085157,483195215,YES,2,3,1.0,0.0542999210627,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2608170668,483195215,YES,5,3,1.0,0.203878480812,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2647564096,483195215,YES,6,3,1.0,0.200413324591,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2656929762,483195215,YES,1,3,1.0,0.152263763347,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2694912678,483195215,YES,2,3,1.0,0.0765173584701,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+2813182022,483195215,YES,6,3,1.0,0.260564706872,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2815553473,483195215,YES,2,3,1.0,0.00622595559009,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2821444360,483195215,YES,1,3,1.0,0.0245949268305,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2850807431,483195215,YES,2,3,1.0,0.114414650336,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2870039639,483195215,YES,1,3,1.0,0.242733491169,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2871733616,483195215,YES,1,3,1.0,0.534175962579,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2887002526,483195215,YES,2,3,1.0,0.153173981155,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2914673670,483195215,YES,1,3,1.0,0.527246993761,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+2979485927,483195215,YES,4,3,1.0,0.256252562698,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3008274374,483195215,YES,4,3,1.0,0.0595545807744,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+3010573975,483195215,YES,12,3,1.0,0.13530440116,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3016254954,483195215,YES,10,3,1.0,0.0,0,0,0,food,1,0,0,holiday+xmas+newyear
+3099848394,483195215,YES,2,3,1.0,0.0761585552647,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3106340063,483195215,YES,18,3,1.0,0.0893236773596,0,0,0,food+cook,1,0,0,holiday+xmas+newyear
+3180881382,483195215,YES,2,3,1.0,0.216861820782,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3184646412,483195215,YES,13,3,1.0,0.174622127195,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3220719853,483195215,YES,2,3,1.0,0.182797890359,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3247102707,483195215,YES,2,3,1.0,0.159989723287,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3247150542,483195215,YES,1,3,1.0,0.0957669087171,0,0,0,travel,1,0,0,holiday+xmas+newyear
+3259563218,483195215,YES,2,3,1.0,0.171591716557,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3270537818,483195215,YES,2,3,1.0,0.0457435572417,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3289906240,483195215,YES,36,3,1.0,0.165766320689,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3299084450,483195215,YES,12,3,1.0,0.236628077189,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3299404571,483195215,YES,21,3,1.0,0.543866898517,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3309802136,483195215,YES,1,3,1.0,0.274920428752,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3389363085,483195215,YES,1,3,1.0,0.0375937404935,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3578284940,483195215,YES,14,3,1.0,0.110250814949,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3640105639,483195215,YES,2,3,1.0,0.373712978713,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+3886400655,483195215,YES,4,3,1.0,0.0,0,0,0,holiday+home,1,0,0,holiday+xmas+newyear
+4289588657,483195215,YES,4,3,1.0,0.0634898664436,0,0,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+4348155920,483195215,YES,1,3,1.0,0.344315071381,0,1,0,holiday+xmas+newyear,1,0,0,holiday+xmas+newyear
+15682352,15655027,YES,2,3,0.639911525483,0.0790027373223,0,0,0,holiday+home,0,0,0,holiday+home
+16145224,15655027,YES,3,3,0.639911525483,0.00373274436694,0,0,0,food+cook,0,0,0,holiday+home
+18809624,15655027,YES,2,3,0.639911525483,0.131930993017,0,0,0,holiday+home,0,0,0,holiday+home
+23071342,15655027,YES,2,3,0.639911525483,0.0674470966859,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+50037505,15655027,YES,2,3,0.639911525483,0.0472430126657,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+83057554,15655027,YES,1,3,0.639911525483,0.398217548829,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+310080433,15655027,YES,4,3,0.639911525483,0.0326086301118,0,0,0,holiday+home,0,0,0,holiday+home
+351218463,15655027,YES,1,3,0.639911525483,0.140708159592,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+2388901877,15655027,YES,15,3,0.639911525483,0.103631944972,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+2845016384,15655027,YES,2,3,0.639911525483,0.0,0,0,0,SocialNetwork,0,0,0,holiday+home
+2875700721,15655027,YES,2,3,0.639911525483,0.178803982048,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3145249974,15655027,YES,10,3,0.639911525483,0.00439126974577,0,0,0,food+cook,0,0,0,holiday+home
+3256043222,15655027,YES,2,3,0.639911525483,0.0392088741392,0,0,0,holiday+home,0,0,0,holiday+home
+4281221712,15655027,YES,2,3,0.639911525483,0.0547695335333,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+14921141,20253942,YES,5,3,0.47759396047,0.0307026304024,0,0,0,food+cook,0,0,0,holiday+home
+15568852,20253942,YES,2,3,0.47759396047,0.102050118293,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+24703881,20253942,YES,6,3,0.47759396047,0.0185432476666,0,0,0,holiday+home,0,0,0,holiday+home
+28739330,20253942,YES,2,3,0.47759396047,0.0657706546735,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+61823778,20253942,YES,1,3,0.47759396047,0.0473102039774,0,0,0,holiday+home,0,0,0,holiday+home
+745791692,20253942,YES,1,3,0.47759396047,0.0837002533856,0,0,0,holiday+home,0,0,0,holiday+home
+2152143480,20253942,YES,2,3,0.47759396047,0.0748778671081,0,0,0,holiday+home,0,0,0,holiday+home
+3401318093,20253942,YES,2,3,0.47759396047,0.0,0,0,0,food,0,0,0,holiday+home
+14292954,15452859,YES,4,3,0.455510527526,0.0248338381621,0,0,0,holiday+gift,0,0,0,holiday+xmas+newyear
+15642916,15452859,YES,2,3,0.455510527526,0.023509019129,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+68296245,15452859,YES,11,3,0.455510527526,0.0643467375448,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+204162470,15452859,YES,1,3,0.455510527526,0.159473180772,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+213405395,15452859,YES,1,3,0.455510527526,0.324916464828,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+319809082,15452859,YES,2,3,0.455510527526,0.172814028626,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+361177282,15452859,YES,1,3,0.455510527526,0.14166369051,0,0,0,holiday+gift,0,0,0,holiday+xmas+newyear
+613382039,15452859,YES,4,3,0.455510527526,0.174256968013,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+704355078,15452859,YES,2,3,0.455510527526,0.00647366986029,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+1374601428,15452859,YES,1,3,0.455510527526,0.217945788144,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+4027167933,15452859,YES,1,3,0.455510527526,0.102476916571,0,0,0,holiday+gift,0,0,0,holiday+xmas+newyear
+3259563218,1087760550,Follower of Secondary_User,2,3,0.424963867941,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+39940842,2537217065,Follower of Secondary_User,2,3,0.38034455337,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+6352222,86369703,YES,1,3,0.331135635282,0.0775274603496,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+16529427,86369703,YES,1,3,0.331135635282,0.16044240113,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+18809624,86369703,YES,34,3,0.331135635282,0.131930993017,0,0,0,holiday+home,0,0,0,holiday+home
+19455010,86369703,YES,2,3,0.331135635282,0.0580987259596,0,0,0,holiday+home,0,0,0,holiday+home
+19576316,86369703,YES,1,3,0.331135635282,0.0889433528602,0,0,0,holiday+home,0,0,0,holiday+home
+20486606,86369703,YES,2,3,0.331135635282,0.225801728175,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+32571309,86369703,YES,1,3,0.331135635282,0.0849011977883,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+157448293,86369703,YES,1,3,0.331135635282,0.128064102912,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+172105978,86369703,YES,1,3,0.331135635282,0.0913903778535,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+15568852,213405395,YES,8,3,0.324916464828,0.102050118293,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+35075210,213405395,YES,1,3,0.324916464828,0.244943144297,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+36079205,18478105,YES,2,3,0.301105878103,0.0991488199359,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+433700958,18478105,YES,1,3,0.301105878103,0.0973598274861,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,180392529,Follower of Secondary_User,2,3,0.263605751123,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+26561883,22981009,YES,9,3,0.25867207806,0.0628178367974,0,0,0,food,0,0,0,holiday+home
+28820902,22981009,YES,12,3,0.25867207806,0.107943849362,0,0,0,holiday+home,0,0,0,holiday+home
+310080433,22981009,YES,4,3,0.25867207806,0.0326086301118,0,0,0,holiday+home,0,0,0,holiday+home
+2608170668,22981009,YES,1,3,0.25867207806,0.203878480812,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3008274374,22981009,YES,4,3,0.25867207806,0.0595545807744,0,0,0,holiday+home,0,0,0,holiday+home
+3106340063,22981009,YES,2,3,0.25867207806,0.0893236773596,0,0,0,food+cook,0,0,0,holiday+home
+36079205,253808421,Follower of Secondary_User,2,3,0.205194453225,0.0991488199359,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+39940842,1267810070,Follower of Secondary_User,2,3,0.183884143843,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,2301583963,Follower of Secondary_User,2,3,0.181183009044,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,253988907,Follower of Secondary_User,2,3,0.168743016983,0.029871190142,0,0,0,holiday+home,0,0,0,travel
+18809624,818155,YES,2,3,0.166424720094,0.131930993017,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,1093948830,Follower of Secondary_User,2,3,0.164354574365,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,2939842019,Follower of Secondary_User,2,3,0.162068800858,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,346423170,Follower of Secondary_User,2,3,0.156453390434,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,1456958761,Follower of Secondary_User,2,3,0.154757987512,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,797569158,Follower of Secondary_User,2,3,0.150832972426,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,2159150539,Follower of Secondary_User,2,3,0.145675908417,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,71674961,Follower of Secondary_User,2,3,0.138188559341,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,65207600,Follower of Secondary_User,2,3,0.137870967189,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,2989115624,Follower of Secondary_User,2,3,0.13248202621,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+36079205,18809624,YES,2,3,0.131930993017,0.0991488199359,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+2875700721,18809624,YES,8,3,0.131930993017,0.178803982048,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+39940842,424594348,Follower of Secondary_User,2,3,0.126830744612,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,72604692,Follower of Secondary_User,2,3,0.123358000134,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,1074008324,Follower of Secondary_User,2,3,0.120131180169,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,1738084020,Follower of Secondary_User,2,3,0.118005985179,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,37086460,Follower of Secondary_User,2,3,0.116839329716,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+3106340063,96697085,YES,2,3,0.116671929046,0.0893236773596,0,0,0,food+cook,0,0,0,food+cook
+3259563218,4236874701,Follower of Secondary_User,2,3,0.111740700238,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+3401318093,114049072,Follower of Secondary_User,2,3,0.108983698328,0.0,0,0,0,food,0,0,0,holiday+xmas+newyear
+39940842,546019948,Follower of Secondary_User,2,3,0.101286596415,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,2885119072,Follower of Secondary_User,2,3,0.0888463049662,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,4079959038,Follower of Secondary_User,2,3,0.0846084030385,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+24990869,7121092,YES,6,3,0.0783356853395,0.15674215671,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+39940842,7121092,YES,28,3,0.0783356853395,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+89321553,7121092,YES,1,3,0.0783356853395,0.174901765552,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+144101650,7121092,YES,1,3,0.0783356853395,0.525101905299,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+147026000,7121092,YES,2,3,0.0783356853395,0.00594182953084,0,0,0,food+cook,0,0,0,holiday+home
+177454156,7121092,YES,1,3,0.0783356853395,0.196551070576,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+540244828,7121092,YES,9,3,0.0783356853395,0.0710593976949,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+818798281,7121092,YES,1,3,0.0783356853395,0.497460644025,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+919046790,7121092,YES,1,3,0.0783356853395,0.380092069287,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+1902678374,7121092,YES,33,3,0.0783356853395,0.722401412976,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+3008274374,7121092,YES,6,3,0.0783356853395,0.0595545807744,0,0,0,holiday+home,0,0,0,holiday+home
+3010573975,7121092,YES,2,3,0.0783356853395,0.13530440116,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3184646412,7121092,YES,6,3,0.0783356853395,0.174622127195,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3886400655,7121092,YES,4,3,0.0783356853395,0.0,0,0,0,holiday+home,0,0,0,holiday+home
+39940842,343500261,Follower of Secondary_User,2,3,0.0750381165444,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+18809624,123060735,Follower of Secondary_User,2,3,0.0725045538534,0.131930993017,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,35534534,Follower of Secondary_User,2,3,0.0724893711277,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+3259563218,3061056794,Follower of Secondary_User,2,3,0.0699648676123,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+gift
+39940842,1548726937,Follower of Secondary_User,2,3,0.0696764844485,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+2608170668,26561883,YES,1,3,0.0628178367974,0.203878480812,0,0,0,holiday+xmas+newyear,0,0,0,food
+39940842,596504164,Follower of Secondary_User,2,3,0.0608220448977,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,546475278,Follower of Secondary_User,2,3,0.0584668031274,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,328255580,Follower of Secondary_User,2,3,0.0568830693145,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,3814956857,Follower of Secondary_User,2,3,0.0524404227064,0.029871190142,0,0,0,holiday+home,0,0,0,food+cook
+39940842,1437735956,Follower of Secondary_User,2,3,0.0488075908661,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+2694912678,61823778,Follower of Secondary_User,2,3,0.0473102039774,0.0765173584701,0,0,0,holiday+home,0,0,0,holiday+home
+3259563218,28344368,Follower of Secondary_User,2,3,0.04533235099,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,food+cook
+3259563218,62246266,Follower of Secondary_User,2,3,0.0382363887026,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+445898774,2869640148,Follower of Secondary_User,2,3,0.0354032246731,0.0692474598203,0,0,0,holiday+home,0,0,0,holiday+home
+3259563218,2869640148,Follower of Secondary_User,2,3,0.0354032246731,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+1119937044,349036315,Follower of Secondary_User,2,3,0.0332689227729,0.0181868916979,0,0,0,holiday+home,0,0,0,travel
+39940842,196605786,Follower of Secondary_User,2,3,0.0320944752224,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+xmas+newyear
+39940842,175050801,Follower of Secondary_User,2,3,0.0319852609524,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+80365316,39940842,YES,2,3,0.029871190142,0.0302129246327,0,0,0,food,0,0,0,holiday+home
+315098670,39940842,YES,14,3,0.029871190142,0.0839545514109,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+577256073,39940842,YES,2,3,0.029871190142,0.0,0,0,0,food,0,0,0,holiday+home
+2647564096,39940842,YES,2,3,0.029871190142,0.200413324591,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+2821444360,39940842,YES,1,3,0.029871190142,0.0245949268305,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3099848394,39940842,YES,2,3,0.029871190142,0.0761585552647,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3270537818,39940842,YES,2,3,0.029871190142,0.0457435572417,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+3886400655,39940842,YES,4,3,0.029871190142,0.0,0,0,0,holiday+home,0,0,0,holiday+home
+4281221712,39940842,YES,4,3,0.029871190142,0.0547695335333,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+39940842,1072279861,Follower of Secondary_User,2,3,0.0226545883182,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+39940842,188045467,Follower of Secondary_User,2,3,0.0220131286952,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+3259563218,3196288600,Follower of Secondary_User,2,3,0.0218316554573,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+39940842,20020031,Follower of Secondary_User,2,3,0.0156403414808,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+3259563218,20020031,Follower of Secondary_User,2,3,0.0156403414808,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+home
+39940842,2796452978,Follower of Secondary_User,2,3,0.0125265109813,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+39940842,2318347284,Follower of Secondary_User,2,3,0.00981981451545,0.029871190142,0,0,0,holiday+home,0,0,0,Design
+39940842,188287383,Follower of Secondary_User,2,3,0.00765730348476,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+3145249974,9054152,Follower of Secondary_User,2,3,0.00527458033797,0.00439126974577,0,0,0,food+cook,0,0,0,holiday+home
+40492021,23241541,YES,1,3,0.00437885040552,0.443479551557,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+1393345688,23241541,YES,2,3,0.00437885040552,0.0,0,0,0,holiday+home,0,0,0,holiday+home
+3256043222,23241541,YES,2,3,0.00437885040552,0.0392088741392,0,0,0,holiday+home,0,0,0,holiday+home
+3259563218,3928014553,Follower of Secondary_User,2,3,0.0030273410036,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,holiday+xmas+newyear
+2497209325,4788210749,Follower of Secondary_User,2,3,0.00105627370536,0.261487315484,0,1,0,holiday+xmas+newyear,0,0,0,holiday+home
+39940842,309805419,Follower of Secondary_User,2,3,1.87724678043e-05,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+3259563218,4817732068,Follower of Secondary_User,2,3,5.58499650294e-07,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,SocialNetwork
+39940842,23851343,Follower of Secondary_User,2,3,0.0,0.029871190142,0,0,0,holiday+home,0,0,0,holiday+home
+39940842,577256073,Follower of Secondary_User,2,3,0.0,0.029871190142,0,0,0,holiday+home,0,0,0,food
+39940842,2737126338,Follower of Secondary_User,2,3,0.0,0.029871190142,0,0,0,holiday+home,0,0,0,food
+282648359,873828446,YES,2,3,0.0,0.33084723624,0,1,0,holiday+xmas+newyear,0,0,0,food
+341664138,873828446,YES,1,3,0.0,0.24949618087,0,1,0,holiday+xmas+newyear,0,0,0,food
+1393345688,172758851,YES,6,3,0.0,0.0,0,0,0,holiday+home,0,0,0,holiday+home
+2813182022,873828446,YES,8,3,0.0,0.260564706872,0,1,0,holiday+xmas+newyear,0,0,0,food
+3106340063,873828446,YES,50,3,0.0,0.0893236773596,0,0,0,food+cook,0,0,0,food
+3106340063,3309716130,Follower of Secondary_User,2,3,0.0,0.0893236773596,0,0,0,food+cook,0,0,0,food+cook
+3259563218,4153762119,Follower of Secondary_User,2,3,0.0,0.171591716557,0,0,0,holiday+xmas+newyear,0,0,0,food+cook
