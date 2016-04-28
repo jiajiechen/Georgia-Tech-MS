@@ -295,18 +295,19 @@
 			}
 
 
-			
-
-
-			function drawNetworkGraph(selectedTopicTable,infNum,campNum,campTime,svg1){
+			function drawNetworkGraph(selectedTopicTable,infNum,campNum,campTime,svg1)
+			{
 				var hour = 2000;
 				var activeUsers = [];
 		  		var links = [];
-				d3.csv(selectedTopicTable+"Infler.csv", function(error, inflersData) {
+				d3.csv(selectedTopicTable+"Infler.csv", function(error, inflersData)
+				{
 						var infDict = {};
 						count = 0 ;
-				      	inflersData.forEach(function(d){
-				      		if (count<5){
+				      	inflersData.forEach(function(d)
+				      	{
+				      		if (count<5)
+				      		{
 				      			console.log("get Inflers!");
 				      			userID = d.userID;
 				      			infDict[userID] = +d.score;
@@ -316,46 +317,47 @@
 				      	//console.log(" new Topic", selectedTopicTable);
 				      	//console.log("  infDict: ",infDict); 
 
-					d3.csv(selectedTopicTable+"Edge"+infNum+".csv", function(error, edgeData) {
-				      	if (error) throw error;
-
-				      	// infDict = { userID: score, userID: score, userID: score, ...}
-
-				      	var allInfIDArr = [];
-					    infNodes.forEach(function(d){
+					d3.csv(selectedTopicTable+"Edge"+infNum+".csv", function(error, edgeData)
+					{
+				      	    if (error) throw error;
+				      	    // infDict = { userID: score, userID: score, userID: score, ...}
+				      	    var allInfIDArr = [];
+					    infNodes.forEach(function(d)
+					    {
 					        allInfIDArr.push(d.Userid);
 					    });
 					    //console.log("  allInfIDArr: ",allInfIDArr);
 				     
-
-
-				      	edgeData.forEach(function(d) {
-				          var edge = {};
-				          //console.log( "   -->link obj",d);
-				          edge['source'] = +d['source'];
-				          edge['target'] = +d['target'];
-				          edge['status'] = d['status'];
-				          edge['count'] = +d['count'];
-						  edge['phase']=+d['phase']
-				          edge['sp1'] = +d['sp1'];
-						  edge['sp2'] = +d['sp2'];
-						  edge['sp3'] = +d['sp3'];
-						  edge['tp1'] = +d['tp1'];
-						  edge['tp2'] = +d['tp2'];
-						  edge['tp3'] = +d['tp3'];
-						  if(!( d.target in edge)){
-						  	edge['favTopic']= d['favTopic_target'];
+				      	    edgeData.forEach(function(d) {
+				                var edge = {};
+				                //console.log( "   -->link obj",d);
+				                edge['source'] = +d['source'];
+				                edge['target'] = +d['target'];
+				                edge['status'] = d['status'];
+				                edge['count'] = +d['count'];
+				                edge['phase']=+d['phase'];
+				                edge['sp1'] = +d['sp1'];
+				                edge['sp2'] = +d['sp2'];
+				                edge['sp3'] = +d['sp3'];
+				                edge['tp1'] = +d['tp1'];
+				                edge['tp2'] = +d['tp2'];
+				                edge['tp3'] = +d['tp3'];
+				                if(!( d.target in edge))
+				                {
+				                    edge['favTopic']= d['favTopic_target'];
 						  	// console.log(d['favTopic_target']);
-						  }
-						  if(!( d.source in edge)){
-						  	edge['favTopic']= d['favTopic_source'];
-						  }
-				          links.push(edge);
-				          if(d['status']=="YES"){
-				            if(activeUsers.indexOf(d['source'])<0) activeUsers.push(+d['source']);
-				            if(activeUsers.indexOf(d['target'])<0) activeUsers.push(+d['target']);
-				          }  
-				      	})
+						}
+						if(!( d.source in edge))
+						{
+						    edge['favTopic']= d['favTopic_source'];
+						}
+				                links.push(edge);
+				                if(d['status']=="YES")
+				                {
+				                    if(activeUsers.indexOf(d['source'])<0) activeUsers.push(+d['source']);
+				                    if(activeUsers.indexOf(d['target'])<0) activeUsers.push(+d['target']);
+				                }  
+				      	     })
 				      	
 				      	var nodes = {};
 
@@ -366,7 +368,6 @@
 					     });
 
 				      	//console.log(Object.keys(nodes).length); 
-
 
 					    var force = d3.layout.force()
 					        .nodes(d3.values(nodes))
@@ -586,7 +587,6 @@
 				});
 			}
 
-
 			function drawTrendGraph( selectedTopicTable,infNum,campNum,campTime,svg3, width_3, height_3){
 				//小辰code
 				d3.csv(selectedTopicTable+"Node"+infNum+".csv", function(error, inflersNodeData) {
@@ -600,9 +600,7 @@
 
 						});
 				    });
-					console.log(nodes);
-			 	
-
+					// console.log(nodes);
 			        var hour = 60;
 					var phaseTime = hour;
 					var phaseNum = 3;
@@ -632,18 +630,10 @@
 					  };
 					});
 					makeChart(svg3, trendData, markers, width_3, height_3,campTime,simLength);
-
-
-
-
-
-					
-
 				});
 			}
 
 	  	</script>
-
 
   	</body> 
 </html>
