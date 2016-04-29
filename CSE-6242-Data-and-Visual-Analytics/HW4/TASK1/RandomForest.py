@@ -1,13 +1,8 @@
-import os
-import csv
 import numpy as np
 import scipy.stats as st
 import random
 import math
 from time import time
-
-from CSE6242HW4Tester import generateSubmissionFile
-
 
 """
 Here, X is assumed to be a matrix with n rows and d columns
@@ -17,15 +12,11 @@ and d is the number of features of each sample
 Also, y is assumed to be a vector of n labels
 """
 
-myname = "Jiajie-Chen"
-os.chdir("/Users/jiajiechen/Desktop/CSE6242-HW4/hw4-skeleton/Task1")
-
-
 class RandomForest(object):
-
     class __DecisionTree(object):
         class decisionnode:
-            def __init__(self,col=-1,value=None,results=None,tb=None,fb=None):
+            def __init__(self,col=-1,value=None,results=None,
+                         tb=None,fb=None):
                 self.col=col
                 self.value=value
                 self.results=results
@@ -33,7 +24,7 @@ class RandomForest(object):
                 self.fb=fb
 
         def __init__(self,tree=None,depth=0,max_depth=None,
-                     splitSearchPct=0.5,n_random_feature=None,
+                     splitSearchPct=0.95,n_random_feature=None,
                      multi_class=False,threshold=0.5):
             self.tree = tree
             self.depth = depth
@@ -42,7 +33,6 @@ class RandomForest(object):
             self.n_random_feature = n_random_feature
             self.threshold = threshold
             self.multi_class = multi_class
-
 
         def entropy(self, attribute_data):
             if self.multi_class:
@@ -62,8 +52,8 @@ class RandomForest(object):
 
         def divideset(self, data, feature, splitPoint):
             if isinstance(splitPoint,int) or isinstance(splitPoint,float):
-                set1=data[data[:,feature]>splitPoint]
-                set2=data[data[:,feature]<=splitPoint]
+                set1=data[data[:,feature]>=splitPoint]
+                set2=data[data[:,feature]<splitPoint]
             else:
                 set1=data[data[:,feature]==splitPoint]
                 set2=data[data[:,feature]==splitPoint]
@@ -73,7 +63,7 @@ class RandomForest(object):
             data = np.column_stack((X,y))
             n_row, n_col = data.shape
             #set num of feature to sample
-            self.n_random_feature=int(math.log(n_col,2))+1
+            self.n_random_feature=int(math.sqrt(n_col))+1
 
             label = data[:,-1]
             if n_row == 0: return self.decisionnode()
@@ -86,16 +76,22 @@ class RandomForest(object):
             #It's -1 because the last one is the target attribute and it does not count.
             column_count=n_col-1
 
-            for col in sorted(random.sample(xrange(column_count), 
-                                            self.n_random_feature)):
+            #randomly select n_random_feature from range(0,column_count)
+            selected_cols = random.sample(xrange(column_count),
+                                          self.n_random_feature)
+
+            for col in sorted(selected_cols):
                 column_values = self.get_count_dict(data[:,col])
                 keys = sorted(column_values.keys())
                 # if too manys keys to iter, sample%
                 if len(keys) > 50:
                     n_smpl_keys = int(self.splitSearchPct*len(keys))
                     #get sorted sample
-                    smpl_keys = [keys[i] for i in sorted(random.sample(xrange(len(keys)), n_smpl_keys))]
+                    selected_keys = sorted(random.sample(xrange(len(keys)), 
+                                                         n_smpl_keys))
+                    smpl_keys = [keys[i] for i in selected_keys]
                 else: smpl_keys = keys
+
                 for value in smpl_keys:
                     (set1, set2)=self.divideset(data, col, value)
                     if set1.shape[0]>0 and set2.shape[0]>0:
@@ -122,6 +118,7 @@ class RandomForest(object):
                                              key=lambda key: result[key]))
                 else:
                     return self.decisionnode(results=int(np.mean(data[:,-1])>self.threshold))
+        #end of learn
 
         def classify(self,test_instance,tree):
             if tree.results!=None:
@@ -147,14 +144,11 @@ class RandomForest(object):
 
         def tree_accuracy(self, predicted_y, true_y):
             return float(sum(np.array(predicted_y) == true_y)) / len(predicted_y)
+    #end of decision tree class
 
-###############################################################################
-
-    decision_trees = []
-
-    def __init__(self, num_trees, verbose=False):
+    def __init__(self, decision_trees=None, num_trees=10, verbose=False):
         self.num_trees = num_trees
-        self.decision_trees = []
+        self.decision_trees = decision_trees
         self.verbose = verbose
     
     def bootstrap(self, data):
@@ -164,6 +158,7 @@ class RandomForest(object):
         return data[flag,:]
 
     def fit(self, X, y):
+        self.decision_trees = []
         data = np.column_stack((X,y))
         for i in xrange(self.num_trees):
             random.seed(time())
@@ -177,7 +172,6 @@ class RandomForest(object):
                 print "Fitting Tree", i
                 print "Time elapsed %.4f s" % (t1-t0)
 
-
     def predict(self, X):
         y = np.array([], dtype = int)
         for instance in X:
@@ -186,116 +180,4 @@ class RandomForest(object):
             counts = np.bincount(votes)
             y = np.append(y, np.argmax(counts))
         return y
-
-
-def main(cv=False,kaggle=True, num_Trees=10):
-    X = []
-    y = []
-
-    # Load data set
-    with open("hw4-data.csv") as f:
-        next(f, None)
-
-        for line in csv.reader(f, delimiter = ","):
-            X.append(line[:-1])
-            y.append(line[-1])
-
-    X = np.array(X, dtype = float)
-    y = np.array(y, dtype = int)
-
-    # Split training/test sets
-    # You need to modify the following code for cross validation
-    if cv == True:
-        K = 10
-        cv_accuracy =[]
-        for ii in xrange(K):
-            X_train = np.array([x for i, x in enumerate(X) if i % K != ii],
-                                dtype = float)
-            y_train = np.array([z for i, z in enumerate(y) if i % K != ii],
-                                dtype = int)
-            X_test  = np.array([x for i, x in enumerate(X) if i % K == ii],
-                                dtype = float)
-            y_test  = np.array([z for i, z in enumerate(y) if i % K == ii],
-                                dtype = int)
-
-            randomForest = RandomForest(num_Trees)
-            t0 = time()
-            randomForest.fit(X_train, y_train)
-            t1 = time()
-            print "time elapses = %.3f s" % (t1-t0)
-
-            y_predicted = randomForest.predict(X_test)
-
-            results = [prediction == truth for prediction,
-                       truth in zip(y_predicted, y_test)]
-
-            # Accuracy
-            accuracy = float(results.count(True)) / float(len(results))
-            print "test accuracy: %.4f" % accuracy
-            cv_accuracy.append(accuracy)
-        print "average cv accuracy: %.4f" % np.mean(cv_accuracy)
-
-    elif kaggle==True:
-        K = 10
-        ii = 3
-        X_train = np.array([x for i, x in enumerate(X) if i % K != ii],
-                            dtype = float)
-        y_train = np.array([z for i, z in enumerate(y) if i % K != ii],
-                            dtype = int)
-        X_test  = np.array([x for i, x in enumerate(X) if i % K == ii],
-                            dtype = float)
-        y_test  = np.array([z for i, z in enumerate(y) if i % K == ii],
-                            dtype = int)
-        
-        randomForest = RandomForest(num_Trees, verbose=True)
-
-        t0 = time()
-        randomForest.fit(X_train,y_train)
-        t1 = time()
-        print "time elapses = %.3f s" % (t1-t0)
-
-        y_predicted = randomForest.predict(X_test)
-        results = [prediction == truth for prediction,truth in zip(y_predicted,
-                                                                   y_test)]
-        # Accuracy
-        accuracy = float(results.count(True)) / float(len(results))
-        print "test accuracy: %.4f" % accuracy
-        generateSubmissionFile(myname, randomForest)
-
-    else:
-        K = 10
-        ii = 2
-        X_train = np.array([x for i, x in enumerate(X) if i % K != ii],
-                            dtype = float)
-        y_train = np.array([z for i, z in enumerate(y) if i % K != ii],
-                            dtype = int)
-        X_test  = np.array([x for i, x in enumerate(X) if i % K == ii],
-                            dtype = float)
-        y_test  = np.array([z for i, z in enumerate(y) if i % K == ii],
-                            dtype = int)
-        randomForest = RandomForest(num_Trees, verbose=True)
-        t0 = time()
-        randomForest.fit(X_train,y_train)
-
-        t1 = time()
-        print "time elapses = %.3f s" % (t1-t0)
-
-        y_predicted = randomForest.predict(X_test)
-        results = [prediction == truth for prediction,truth in zip(y_predicted,
-                                                                   y_test)]
-        # Accuracy
-        accuracy = float(results.count(True)) / float(len(results))
-        print "test accuracy: %.4f" % accuracy
-
-
-main(cv=True, kaggle=False, num_Trees=10)
-"""
-    @num_Trees:
-        number of random decision trees
-    @cv: 
-        cross validation mode, will run 10-fold cross validation,
-        and print average cross validation accuracy
-    @kaggle:
-        kaggle competition mode will generate submission file
-    default: 
-"""
+#end
