@@ -5,15 +5,17 @@ from __future__ import print_function
 """
 
 import os
+import sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from logisticRegression import logisticRegression
 from sklearn.preprocessing import PolynomialFeatures
 
-os.chdir("/Users/jiajiechen/Desktop/CSE6240-HW2")
+pathname = os.path.dirname(sys.argv[0])
+os.chdir(pathname)
 
-data = pd.read_csv("./submit/ex2data2.txt", delimiter=",", header=None)
+data = pd.read_csv("../ex2data2.txt", delimiter=",", header=None)
 X = data.values[:,:2]
 y = data.values[:,2]
 del(data)
