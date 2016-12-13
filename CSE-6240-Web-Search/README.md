@@ -1,6 +1,6 @@
 == Web Search and Text Mining ==
 
-This course covers some ML application in web search area such as Recommender System, Image Search, etc. 
+This course covers some ML application in web search area such as Text Mining, Recommender System, Image Search, etc. 
 Focused more on the machine learning part instead of architecture and design part.
 
 > This folder contains homework and projects from CSE 6240
